@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evander Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/c4254e24a8.js">crossorigi = "anonymous" >
+  
+  </script>
+</head>
+
+<body>
+
+ 
+  <div id="header">
+    
+      <nav>
+        <img src="images/Screenshot (47).png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Servives</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-thin fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Database Adiministrator</p>
+        <h1>Hi, I am <span>Evander</span><br>Yirenkyi</h1>
+      </div>
+    </div>
+  </div>
+  <!-----------------about------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am Evander Yirenkyi.l am 22years of age, a Ghanaian. 
+            A student of Koforidua Technical University 
+            And 
+            also an HND holder in Computer Networking.</p>
+
+            
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>web</span><br>Database Adiministrator.</li>
+              <li><span>UI/UX</span><br>Graphic Design.</li>
+              <li><span>Net</span><br>Networking Engineer.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2020-2021</span><br>Database Adiministrator Triaining at Koforidua Technical University.</li>
+              <li><span>2022-2023</span><br>Graphic Design Triaining at Koforidua Technical University.</li>
+              <li><span>2022-2022</span><br>Networking Engineer Intenship at Koforidua Regional Hospital.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>web</span><br>Database Adiministration at Koforidua Technical University.</li>
+              <li><span>UI/UX</span><br>Graphic Design at Koforidua Technical University.</li>
+              <li><span>Net</span><br>Networking Engineering at Koforidua Technical University.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------services---------------->
+  <div id="services">
+    <div class="container1">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Database Adiministration</h2>
+          <p>Database Adiministration involves managing,
+            orgazation and maintaining database to ensure their
+          efficieny,security and availability.This include task like
+         designing the database structure,optimizing performance,
+           monitiring for issues and  performing backups and recovery.</p>
+          <a href="#">Lean More</a>
+        </div>
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>UI/UX Graphic Design</h2>
+          <p>Graphic design is the art and practice of creating visual content to communicate messages, ideas, or information effectively. It involves combining typography, images, colors, and other elements to produce designs for various mediums such as print, digital platforms, advertising, branding, and more.</p>
+          <a href="#">Lean More</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-ethernet"></i>
+          <h2>Networking Engineering</h2>
+          <p>Networking engineering involves designing, implementing, and managing computer networks. It includes tasks such as configuring routers, switches, and firewalls, ensuring data security, optimizing network performance, and troubleshooting connectivity issues. Networking engineers play a crucial role in establishing reliable communication between devices and enabling the seamless transfer of data across local and wide area networks. They also stay updated on emerging technologies to adapt networks to changing demands and requirements.</p>
+          <a href="#">Lean More</a>
+        </div>
+      </div>
+      <!------------------------portfolio----------------------------->
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container2">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/datsa.jpeg">
+          <div class="layer">
+            <h3>Database Adiministrator</h3>
+            <p>
+              managing, organizing, and maintaining databases to ensure their efficiency, security, and availability.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Black and White Minimalist Simple Sale Poster .png">
+          <div class="layer">
+            <h3>Graphic design</h3>
+            <p>Editing of pictures,flyer making,picture making,logo and website design .</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div>
+          <div class="work">
+            <img src="images/photo-1581092919535-7146ff1a590b.jpeg">
+            <div class="layer">
+              <h3>Networking Engineering</h3>
+              <p>
+                Attending to a problem on a server,configuring routers, switches, and firewalls, ensuring data security, optimizing network performance, and troubleshooting connectivity issues.</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!--------contact--------->
+  <div id="contact">
+    <div class="container3">
+      <div class="row">
+
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> yirenkyiasare256@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 0245539306/0261153149</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-snapchat"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="images/evander.docx" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form action="mail.php" method="post">
+            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea type="message" id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @Evander <i class="fas  fa-heart"></i></p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks)0{
+        tablink.classlist.remove("active-link");
+      }
+      for (tabcontent of tabcontents){
+        tabcontent.classlist.remove("active-tab");
+      }
+      event.currentTarget.classlist.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+<!---<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-solid fa-phone"></i>
+<i class="fa-solid fa-ellipsis-vertical"></i>
+<i class="fa-thin fa-circle-xmark"></i>-->
